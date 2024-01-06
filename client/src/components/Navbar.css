@@ -1,0 +1,114 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    display:flex;
+    align-items: center;
+    width: 126.9px;
+    height: 27px;
+}
+
+
+
+.search_dropdown {
+    position:absolute;
+    top:72px;
+    left:36em;
+    width: 600px;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 1.25px 1.25px gray;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.dropdown_list {
+    display: flex;
+    margin: 10px;
+    position: relative
+}
+
+.search_image {
+    height:40px;
+    width:40px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin:5px;
+}
+.search_image :hover {
+    background-color:beige;
+}
+
+.location {
+    padding:20px;
+    font-size: large;
+    color: gray;
+    height: 52.4;
+    border: none;
+}
+
+.location_logo {
+width: 40px;
+}
+
+.search_logo {
+width: 40px;
+}
+
+.searchBar {
+    width: 600px;
+    height: 40px;
+   border:none;
+    font-size: large;
+    padding-left: 5px;
+    color: grey;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+ul {
+    display: flex;
+    margin: 2px;
+}
+
+a {
+    text-decoration: none;
+    color:gray;
+    font-size: 22px;
+}
+
+li {
+   
+    display: flex;
+    padding : 1px 8px
+}
+
+.Navbar {
+    width: 1200px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+/* .logo {
+   
+} */
+
+.link {
+    margin: 10px;
+}
+
+.links {
+    display: flex;
+    margin: 5px;
+    text-align: right;
+}

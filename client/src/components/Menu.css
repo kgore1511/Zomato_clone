@@ -1,0 +1,44 @@
+.menu_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    margin: 4px;
+    width: 100%;
+}
+
+.menu_detail {
+    width:60%;
+}
+
+.dish_name {
+    width:120px;
+    font-weight: bolder;
+    font-size: larger;
+    margin:3px;
+    
+}
+
+.addToCart {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.dish_price {
+    justify-content: left;
+    margin: 3px;
+    color: rgb(28, 28, 28);
+}
+
+.dish_image {
+    width:130px;
+    height: 130px;
+    border-radius: 10%;
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.17801ddc.css",
+    "main.js": "/static/js/main.0ace3f09.js",
+    "static/js/787.9d576594.chunk.js": "/static/js/787.9d576594.chunk.js",
+    "static/media/dish1.jpg": "/static/media/dish1.f79b7b9a9b3df166ef78.jpg",
+    "static/media/Zomato_logo.png": "/static/media/Zomato_logo.38c5afc41d155e32fd0f.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.17801ddc.css.map": "/static/css/main.17801ddc.css.map",
+    "main.0ace3f09.js.map": "/static/js/main.0ace3f09.js.map",
+    "787.9d576594.chunk.js.map": "/static/js/787.9d576594.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17801ddc.css",
+    "static/js/main.0ace3f09.js"
+  ]
+}

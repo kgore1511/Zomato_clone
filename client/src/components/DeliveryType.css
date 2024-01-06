@@ -1,0 +1,65 @@
+.container-order {
+   
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1200px;
+  
+  
+}
+
+.container-order div {
+    cursor: pointer;
+    
+}
+
+
+.card {
+   width: 328px;
+   margin: 20px;
+   height: 248px;
+   border-radius: 10px;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  
+}
+
+
+
+.dishImage {
+    width: 327px;
+    height: 80%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.restaurant_name {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 75%;
+    font-size: larger;
+    font-weight: bold;
+    color:gray
+}
+
+.rating {
+    background-color: gray;
+    padding: 2px;
+    color: white;
+    border-radius: 5px;
+}

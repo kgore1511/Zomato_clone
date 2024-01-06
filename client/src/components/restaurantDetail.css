@@ -1,0 +1,74 @@
+.detailImage {
+    width: 75rem;
+    margin: 10px;
+    height: 350px;
+    transition: transform 1.5s;
+    object-fit: cover;
+    border-radius: 10px;
+    
+    top: 10px;
+}
+.detailImage:hover {
+    transform: scale(1.05);
+
+}
+
+.name {
+    position: sticky;
+    top: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.address {
+    color:gray;
+    margin-top: 5px;
+}
+
+.container_detail {
+    display: flex;
+    position: sticky;
+    top:1px;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+
+.container_menu {
+    display:flex;
+    position: sticky;
+    top:100px;
+    justify-content: left;
+    background-color: #ffffff;
+    border-bottom: 2px solid gray;
+    
+}
+
+.overview {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 8px;
+    margin-right: 20px;
+    color: rgb(105, 105, 105);
+
+}
+
+
+.order_online {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 8px;
+    margin-right: 20px;
+    color: rgb(105, 105, 105);
+
+}
+
+
+
+.reviews {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 8px;
+    margin-right: 20px;
+    color: rgb(105, 105, 105);
+
+}

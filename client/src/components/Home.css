@@ -1,0 +1,44 @@
+.delivery {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    background-image: url('../img/delivery_logo.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#delv {
+    border-bottom: 5px solid blue;
+}
+
+#dine {
+    border-bottom: 5px solid white;
+}
+
+.dineout {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+    background-color: beige;
+    background-image: url('../img/dineout_logo.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.action_button {
+    display: flex;
+}
+
+.action {
+    display:flex;
+}
+
+.text {
+    display:flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
